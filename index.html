@@ -239,16 +239,36 @@
                     <form action="">
                         <fieldset>
                             <legend>Cotización</legend>
-                            <label>Ingrese la cantidad</label>
-                            <input type="number" name="cant" id="cant">
+                            <label>Ingrese la cantidad de unidades</label>
+                            <input type="number" name="cant" id="cant" min="2">
+                            <label>Seleccione el equipo industrial</label>
+                            <select name="equipo" id="equipo">
+                                <option value="panel-solar">Panel Solar TOPCon 580 W - L.3,650</option>
+                                <option value="inversor-hibrido">Inversor Hibrido 15 kw - L.98,200</option>
+                                <option value="arrancador">Arrancador Suave 75 HP - L.46,900</option>
+                                <option value="transformador">TRansfromador 150 kVA - L.285,000</option>
+                            </select>
+                            <label>Selecciona la ciudad de entrega y flete</label>
+                            <select name="ciudad" id="ciudad">
+                                <option value="sps">San Pedro Sula - Flete: L.500</option>
+                                <option value="tegucigalpa">Tegucigalpa - Flete: L.1,200</option>
+                                <option value="otras">Otras regiones - Flete: L.2,000</option>
+                            </select>
                         </fieldset>
                     </form>
+                    <span>Descuento comercial del 8% automático en órdenes de 5 o más unidades.</span>
+                    <button>Calcular Presupuesto</button>
+                    <div>
+                        <span>Resultado</span>
+                    </div>
                 </div>
+
+            </section>
+            <section id="contacto">
 
             </section>
         </main>
          <footer >
-            <section id="contacto">
                 <div>
                     <p>Contacto</p>
                     <p>Boulevard del Norte, San Pedro Sula - Tel: 2551-XXXX</p>
@@ -267,7 +287,6 @@
                 <div>
                     <p>&copy; 2026 | Todos los derechos reservados.</p>
                 </div>
-            </section>
         </footer>
     </body>
 <html>
