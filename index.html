@@ -255,9 +255,10 @@
                                 <option value="otras">Otras regiones - Flete: L.2,000</option>
                             </select>
                         </fieldset>
+                        <span>Descuento comercial del 8% automático en órdenes de 5 o más unidades.</span>
+                        <button type="submit">Calcular Presupuesto</button>
                     </form>
-                    <span>Descuento comercial del 8% automático en órdenes de 5 o más unidades.</span>
-                    <button>Calcular Presupuesto</button>
+                    
                     <div>
                         <span>Resultado</span>
                     </div>
@@ -324,6 +325,50 @@
             </section>
 
             <section id="contacto">
+                <div>
+                    <h3>Formulario Para Requisitos y Licitación B2B</h3>
+                    <form action="">
+                        <fieldset>
+                            <legend>Ingrese sus datos</legend>
+                            <div>
+                                <label>Nombre de la empresa o contratista</label>
+                                <input type="text" name="nombre" id="idNombre" 
+                                required minlength="3" maxlength="50" placeholder="Empresa o contratista.">
+                            </div>
+                            <div>
+                                <label>RTN</label>
+                                <input type="number" name="rtn" id="iRtn" 
+                                    required minlength="14" maxlength="14" placeholder="RTN Numerico.">
+                            </div>
+                            <div>
+                                <label>Correo Electrónico Corporativo</label>
+                                <input type="email" name="correo" id="idCorreo" placeholder="example@corporation.com">
+                            </div>
+                            <div>
+                                <label>Teléfono de Contacto</label>
+                                <input type="tel" name="telE" id="idTelE" 
+                                    required minlength="11" maxlength="11" placeholder="XXXX-XXXX">
+                            </div>
+                            <div>
+                                <select name="depa" id="idDepa">
+                                    <option value="cortes">Cortés</option>
+                                    <option value="fm">Francisco Morazán</option>
+                                    <option value="comayagua">Comayagua</option>
+                                    <option value="choluteca">Choluteca</option>
+                                    <option value="olancho">Olancho</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label>Acepto los términos de garantia técnica y cotización</label>
+                                <input type="checkbox" name="terminos" id="idTerminos">
+                            </div>
+                            <div>
+                                <button type="submit">Enviar Cotización</button>
+                                <button>Limpiar Formulario</button>
+                            </div>
+                        </fieldset>
+                    </form>
+                </div>
 
             </section>
         </main>
