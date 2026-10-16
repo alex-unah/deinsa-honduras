@@ -385,113 +385,145 @@
 
             </section>
 
-            <section id="tabla-com" style="scroll-margin-top: 100px;">
-                <h3>Tabla Comparativa De Especificaciones Tecnicas</h3>
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Código</th>
-                            <th>Equipo Industrial</th>
-                            <th>Capacidad</th>
-                            <th>Tensión Nominal</th>
-                            <th>Norma Técnica</th>
-                            <th>Estado de Homologación</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>001</td>
-                            <td>Panel Solar TOPCon</td>
-                            <td>580 Wp</td>
-                            <td>43.5 V DC</td>
-                            <td>UL</td>
-                            <td><span>Homologado</span></td>
-                        </tr>
-                        <tr>
-                            <td>002</td>
-                            <td>Inversor Hibrido</td>
-                            <td>15 kw</td>
-                            <td>120/140 V AC</td>
-                            <td>IEEE</td>
-                            <td><span>En evaluación</span></td>
-                        </tr>
-                        <tr>
-                            <td>003</td>
-                            <td>Arrancador Suave</td>
-                            <td>75 HP</td>
-                            <td>460 V AC</td>
-                            <td>UL</td>
-                            <td><span>Homologado</span></td>
-                        </tr>
-                        <tr>
-                            <td>004</td>
-                            <td>Transfromador</td>
-                            <td>150 kVA</td>
-                            <td>13.8 kV</td>
-                            <td>IEEE</td>
-                            <td><span>Pendiente de pruebas</span></td>
-                        </tr>
-                        <tr>
-                            <td>005</td>
-                            <td>Banco de Capacitores</td>
-                            <td>100 kVAr</td>
-                            <td>480 V AC</td>
-                            <td>ASTM</td>
-                            <td><span>Homologacion pendiente</span></td>
-                        </tr>
-                    </tbody>
-                </table>
+            <section id="tabla-com" class="py-4 border-bottom bg-dark text-light" style="scroll-margin-top: 100px;">
+                <div class="container">
+                    <div class="row g-4 text-center py-4">
+                        <h3 class="badge rounded-pill px-3 py-2 text-uppercase fw-bold bg-info fs-3">Tabla Comparativa De Especificaciones Tecnicas</h3>
+                        <div class="table-responsive shadow-sm rounded-4 border">
+                            <table class="table table-hover table-striped align-middle mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>Código</th>
+                                        <th>Equipo Industrial</th>
+                                        <th>Capacidad</th>
+                                        <th>Tensión Nominal</th>
+                                        <th>Norma Técnica</th>
+                                        <th>Estado de Homologación</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>001</td>
+                                        <td>Panel Solar TOPCon</td>
+                                        <td>580 Wp</td>
+                                        <td>43.5 V DC</td>
+                                        <td>UL</td>
+                                        <td><span>Homologado</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>002</td>
+                                        <td>Inversor Hibrido</td>
+                                        <td>15 kw</td>
+                                        <td>120/140 V AC</td>
+                                        <td>IEEE</td>
+                                        <td><span>En evaluación</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>003</td>
+                                        <td>Arrancador Suave</td>
+                                        <td>75 HP</td>
+                                        <td>460 V AC</td>
+                                        <td>UL</td>
+                                        <td><span>Homologado</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>004</td>
+                                        <td>Transfromador</td>
+                                        <td>150 kVA</td>
+                                        <td>13.8 kV</td>
+                                        <td>IEEE</td>
+                                        <td><span>Pendiente de pruebas</span></td>
+                                    </tr>
+                                    <tr>
+                                        <td>005</td>
+                                        <td>Banco de Capacitores</td>
+                                        <td>100 kVAr</td>
+                                        <td>480 V AC</td>
+                                        <td>ASTM</td>
+                                        <td><span>Homologacion pendiente</span></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        
+
+
+                    </div>
+                </div>
+                
+                
             </section>
 
-            <section id="contacto" style="scroll-margin-top: 100px;">
-                <div>
+            <section id="contacto" class="py-4 border-bottom bg-dark text-light" style="scroll-margin-top: 100px;">
+                <div class="container">
                     <h3>Formulario Para Requisitos y Licitación B2B</h3>
-                    <form action="">
-                        <fieldset>
-                            <legend>Ingrese sus datos</legend>
-                            <div>
-                                <label>Nombre de la empresa o contratista</label>
-                                <input type="text" name="nombre" id="idNombre" 
-                                required minlength="3" maxlength="50" placeholder="Empresa o contratista.">
-                            </div>
-                            <div>
-                                <label>RTN</label>
-                                <input type="number" name="rtn" id="iRtn" 
-                                    required minlength="14" maxlength="14" placeholder="RTN Numerico.">
-                            </div>
-                            <div>
-                                <label>Correo Electrónico Corporativo</label>
-                                <input type="email" name="correo" id="idCorreo" placeholder="example@corporation.com" required>
-                            </div>
-                            <div>
-                                <label>Teléfono de Contacto</label>
-                                <input type="tel" name="telE" id="idTelE" 
-                                    required minlength="11" maxlength="11" placeholder="XXXX-XXXX">
-                            </div>
-                            <div>
-                                <select name="depa" id="idDepa">
-                                    <option value="cortes">Cortés</option>
-                                    <option value="fm">Francisco Morazán</option>
-                                    <option value="comayagua">Comayagua</option>
-                                    <option value="choluteca">Choluteca</option>
-                                    <option value="olancho">Olancho</option>
-                                </select>
-                            </div>
-                            <div>
-                                <label>Acepto los términos de garantia técnica y cotización</label>
-                                <input type="checkbox" name="terminos" id="idTerminos" required>
-                            </div>
-                            <div>
-                                <button type="submit">Enviar Cotización</button>
-                                <button>Limpiar Formulario</button>
-                            </div>
-                        </fieldset>
-                    </form>
+                    <div class="row g-4 text-center py-4">
+                        <form action="">
+                            <fieldset>
+                                <legend>Ingrese sus datos</legend>
+                                <div class="form-floating">
+                                    <div>
+<label for="idNombre">Nombre de la empresa o contratista</label>
+                                    <input class="form-control" type="text" name="nombre" id="idNombre" 
+                                    required minlength="3" maxlength="50" placeholder="Empresa o contratista.">
+                                    </div>
+                                    
+                                </div>
+                                <div class="form-floating">
+                                    <div>
+<label for="iRtn">RTN</label>
+                                    <input class="form-control" type="number" name="rtn" id="iRtn" 
+                                        required minlength="14" maxlength="14" placeholder="RTN Numerico.">
+                                    </div>
+                                    
+                                </div>
+                                <div class="form-floating">
+                                    <div>
+<label for="idCorreo">Correo Electrónico Corporativo</label>
+                                    <input class="form-control" type="email" name="correo" id="idCorreo" placeholder="example@corporation.com" required>
+                                    </div>
+                                    
+                                </div>
+                                <div class="form-floating ">
+                                    <div>
+<label for="idTelE">Teléfono de Contacto</label>
+                                    <input class="form-control" type="tel" name="telE" id="idTelE" 
+                                        required minlength="11" maxlength="11" placeholder="XXXX-XXXX">
+                                    </div>
+                                    
+                                </div>
+                                <div class="form-floating">
+                                    <div>
+<select class="form-select" name="depa" id="idDepa">
+                                        <option value="cortes">Cortés</option>
+                                        <option value="fm">Francisco Morazán</option>
+                                        <option value="comayagua">Comayagua</option>
+                                        <option value="choluteca">Choluteca</option>
+                                        <option value="olancho">Olancho</option>
+                                    </select>
+                                    </div>
+                                    
+                                </div>
+                                <div class="form-floating">
+                                    <div>
+<label for="idTerminos">Acepto los términos de garantia técnica y cotización</label>
+                                    <input class="form-control" type="checkbox" name="terminos" id="idTerminos" required>
+                                    </div>
+                                    
+                                </div>
+                                <div>
+                                    <button type="submit" class="btn btn-lg rounded-pill fw-bold w-100 shadow btn-success mt-4">Enviar Cotización</button>
+                                    <button type="button" class="btn btn-lg rounded-pill fw-bold w-100 shadow btn-success mt-4">Limpiar Formulario</button>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                    
                 </div>
 
             </section>
         </main>
-         <footer >
+         <footer class="py-5 mt-auto border-top bg-dark text-light" >
                 <div>
                     <p>Contacto</p>
                     <p>Boulevard del Norte, San Pedro Sula - Tel: 2551-XXXX</p>
