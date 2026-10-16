@@ -22,7 +22,7 @@
 
                 <!--Menu con enlaces-->
                 <div id="menuNavegacion" class="collapse navbar-collapse">
-                    <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <ul class="navbar-nav ms-auto align-items-lg-center fs-5">
                         <li class="nav-item"><a class="nav-link px-3"" href="#inicio">Inicio</a></li>
                         <li><a class="nav-link px-3"" href="#catalogo">Catálogo</a></li>
                         <li><a class="nav-link px-3"" href="#ofertas">Ofertas</a></li>
@@ -32,8 +32,8 @@
                 </div>
             </div>
         </nav>
-        <header class="py-5 bg-dark text-light">
-            <div class="container py-lg-4">
+        <header class="py-2 bg-dark text-light border-bottom">
+            <div class="container py-lg-2">
                 <div class="row align-items-center g-5">
                     <h1>Deinsa Honduras</h1>
                     <div class="col-12 col-lg-7">
@@ -51,7 +51,7 @@
         </header>
         
         <main>
-            <section id="inicio" class="py-5 bg-white border-bottom" style="scroll-margin-top: 100px;">
+            <section id="inicio" class="py-4 border-bottom bg-dark text-light" style="scroll-margin-top: 100px;">
                 <div class="container">
                     <div class="row text-center">
                         <h2>Quienes somos</h2>
@@ -59,180 +59,204 @@
                             Sula y Tegucigalpa.
                         </p>
                     </div>
-                    
                 </div>
             </section>
 
-            <section id="catalogo" style="scroll-margin-top: 100px;">
-                <h3>Catálogo de Productos</h3>
-                <!--15 productos-->
-                <div>
-                    <div>
-                        <span>Panel Solar TOPCon 580 W</span>
-                        <span>Categoria: Energía solar</span>
-                        <span>Precio: L. 3,650.00</span>
-                        <p>Detalles técnicos: Tensión nominal de referencia de 43.5 V DC; capacidad de 0.58 kW de potencia pico.</p>
-                        <p>Garantía: 12 años.</p>
-                        <p>Marca: SolarMax.</p>
-                        <img src="https://solaryled.cl/wp-content/uploads/2026/08/panel-solar-solargiga-580w-bifacial-topcon-fondo-blanco.png" alt="Panel Solar TOPCon 580 W">
+            <section id="catalogo" style="scroll-margin-top: 100px;" class="bg-dark text-light py-4">
+                <div class="container">
+                    <!--15 productos-->
+                    <div class="row g-4 text-center">
+                        <h3 class="badge rounded-pill px-3 py-2 text-uppercase fw-bold bg-info fs-3">Catálogo de Productos</h3>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <div class="card h-100 border-0 shadow-sm rounded-4 p-3 bg-light">
+                                <img  class="img-fluid" src="https://solaryled.cl/wp-content/uploads/2026/08/panel-solar-solargiga-580w-bifacial-topcon-fondo-blanco.png" alt="Panel Solar TOPCon 580 W">
+                                <span class="fw-bold mb-1">Panel Solar TOPCon 580 W</span>
+                                <span><span class="text-primary fs-6 py-2">Categoria:</span> Energía solar</span>
+                                <span><span class="text-primary fs-6 py-2">Precio:</span> L. 3,650.00</span>
+                                <span><span class="text-primary fs-6 py-2">Garantía:</span> 12 años</span>
+                                <span><span class="text-primary fs-6 py-2">Marca:</span> SolarMax</span>
+                                <span><span class="text-primary fs-6 py-2">Detalles técnicos:</span> Tensión nominal de referencia de 43.5 V DC; capacidad de 0.58 kW de potencia pico.</span>
+                                <button class="btn btn-sm rounded-pill px-3 btn-primary" type="button">Agregar al carrito</button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <div class="card h-100 border-0 shadow-sm rounded-4 p-3 bg-light">
+                                <img  class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx0iUE2WlNzkK5vWdp7T5PffYTVSQYC23On42WJxniJA&s=10" alt="Inversor híbrido de 15 kW">
+                                <span class="fw-bold mb-1">Inversor híbrido de 15 kW</span>
+                                <span><span class="text-primary fs-6 py-2">Categoria:</span> Energía solar</span>
+                                <span><span class="text-primary fs-6 py-2">Precio:</span> L. 98,200.00</span>
+                                <span><span class="text-primary fs-6 py-2">Garantía:</span> 5 años</span>
+                                <span><span class="text-primary fs-6 py-2">Marca:</span> EnerVolt</span>
+                                <span><span class="text-primary fs-6 py-2">Detalles técnicos:</span> Tensión de salida de 120/240 V AC; capacidad nominal de 15 kW; compatible con sistemas de almacenamiento mediante baterías.</span>
+                                <button class="btn btn-sm rounded-pill px-3 btn-primary" type="button">Agregar al carrito</button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <div class="card h-100 border-0 shadow-sm rounded-4 p-3 bg-light">
+                                <img  class="img-fluid" src="https://bombeo.co/wp-content/uploads/2023/04/ARRANCADOR_SUAVE_1.jpg.webp" alt="Arrancador suave de 75 HP">
+                                <span class="fw-bold mb-1">Arrancador suave de 75 HP</span>
+                                <span><span class="text-primary fs-6 py-2">Categoria:</span> Fuerza motriz</span>
+                                <span><span class="text-primary fs-6 py-2">Precio:</span> L. 46,900.00</span>
+                                <span><span class="text-primary fs-6 py-2">Garantía:</span> 2 años</span>
+                                <span><span class="text-primary fs-6 py-2">Marca:</span> InduStart</span>
+                                <span><span class="text-primary fs-6 py-2">Detalles técnicos:</span> Tensión nominal de 460 V AC trifásica; capacidad de motor de 75 HP, equivalentes aproximadamente a 55.9 kW.</span>
+                                <button class="btn btn-sm rounded-pill px-3 btn-primary" type="button">Agregar al carrito</button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <div class="card h-100 border-0 shadow-sm rounded-4 p-3 bg-light">
+                                <img  class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfqDOwK110fxbDd4GNR1hKSwNRisuJCd7Zwc8y2tY5eYovstA6yo0ztts&s=10" alt="Transformador trifásico de 150 kVA">
+                                <span class="fw-bold mb-1">Transformador trifásico de 150 kVA</span>
+                                <span><span class="text-primary fs-6 py-2">Categoria:</span> Media tensión</span>
+                                <span><span class="text-primary fs-6 py-2">Precio:</span> L. 285,000.00</span>
+                                <span><span class="text-primary fs-6 py-2">Garantía:</span> 3 años</span>
+                                <span><span class="text-primary fs-6 py-2">Marca:</span> TrafoPower</span>
+                                <span><span class="text-primary fs-6 py-2">Detalles técnicos:</span> Tensión primaria de 13,800 V y tensión secundaria de 480Y/277 V AC; capacidad de 150 kVA.</span>
+                                <button class="btn btn-sm rounded-pill px-3 btn-primary" type="button">Agregar al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row g-4 text-center py-4">
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <div class="card h-100 border-0 shadow-sm rounded-4 p-3 bg-light">
+                                <img  class="img-fluid" src="https://maikaingenieria.com/wp-content/uploads/2021/09/banc_cap-1.jpg" alt="Banco automático de capacitores de 100 kVAr">
+                                <span class="fw-bold mb-1">Banco automático de capacitores de 100 kVAr</span>
+                                <span><span class="text-primary fs-6 py-2">Categoria:</span> Calidad de energía</span>
+                                <span><span class="text-primary fs-6 py-2">Precio:</span> L. 68,500.00</span>
+                                <span><span class="text-primary fs-6 py-2">Garantía:</span> 2 años</span>
+                                <span><span class="text-primary fs-6 py-2">Marca:</span> ReactivePro</span>
+                                <span><span class="text-primary fs-6 py-2">Detalles técnicos:</span> Tensión nominal de 480 V AC trifásica; capacidad de compensación de potencia reactiva de 100 kVAr.</span>
+                                <button class="btn btn-sm rounded-pill px-3 btn-primary" type="button">Agregar al carrito</button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <div class="card h-100 border-0 shadow-sm rounded-4 p-3 bg-light">
+                                <img  class="img-fluid" src="https://ineldec.com/wp-content/uploads/2024/08/Cable-4-0-AWG-THHN-Precio-2.jpeg" alt="Cable de cobre THHN 4/0 AWG">
+                                <span class="fw-bold mb-1">Cable de cobre THHN 4/0 AWG</span>
+                                <span><span class="text-primary fs-6 py-2">Categoria:</span> Conductores</span>
+                                <span><span class="text-primary fs-6 py-2">Precio:</span> L. 485.00 por metro</span>
+                                <span><span class="text-primary fs-6 py-2">Garantía:</span> 1 año</span>
+                                <span><span class="text-primary fs-6 py-2">Marca:</span> ElectroCable</span>
+                                <span><span class="text-primary fs-6 py-2">Detalles técnicos:</span> Tensión nominal de aislamiento de 600 V; conductor de cobre con sección nominal aproximada de 107.2 mm².</span>
+                                <button class="btn btn-sm rounded-pill px-3 btn-primary" type="button">Agregar al carrito</button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <div class="card h-100 border-0 shadow-sm rounded-4 p-3 bg-light">
+                                <img  class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYgm1DyyMM0kqbrR39dE9mBtE81Md6tLOXXTbi_y4cNozK0WhHwUdt28w&s=10" alt="Centro de carga NEMA 3R de 225 A">
+                                <span class="fw-bold mb-1">Centro de carga NEMA 3R de 225 A</span>
+                                <span><span class="text-primary fs-6 py-2">Categoria:</span> Distribución eléctrica</span>
+                                <span><span class="text-primary fs-6 py-2">Precio:</span> L. 18,900.00</span>
+                                <span><span class="text-primary fs-6 py-2">Garantía:</span> 2 años</span>
+                                <span><span class="text-primary fs-6 py-2">Marca:</span> PanelGuard</span>
+                                <span><span class="text-primary fs-6 py-2">Detalles técnicos:</span> Tensión nominal de 120/240 V AC; corriente nominal de 225 A; gabinete diseñado para ofrecer protección contra la lluvia y otras condiciones exteriores contempladas por NEMA 3R.</span>
+                                <button class="btn btn-sm rounded-pill px-3 btn-primary" type="button">Agregar al carrito</button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <div class="card h-100 border-0 shadow-sm rounded-4 p-3 bg-light">
+                                <img  class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxmJWyx7OmmtJ4FQCVNbHaTQFTgCnXSP44hvhMXnpCow&s" alt="Interruptor termomagnético de 100 A">
+                                <span class="fw-bold mb-1">Interruptor termomagnético de 100 A</span>
+                                <span><span class="text-primary fs-6 py-2">Categoria:</span> Protección eléctrica</span>
+                                <span><span class="text-primary fs-6 py-2">Precio:</span> L. 4,250.00</span>
+                                <span><span class="text-primary fs-6 py-2">Garantía:</span> 2 años</span>
+                                <span><span class="text-primary fs-6 py-2">Marca:</span> ProtecVolt</span>
+                                <span><span class="text-primary fs-6 py-2">Detalles técnicos:</span> Tensión nominal de 480 V AC; corriente nominal de 100 A; tres polos para protección de circuitos trifásicos. La capacidad interruptiva debe verificarse según el modelo.</span>
+                                <button class="btn btn-sm rounded-pill px-3 btn-primary" type="button">Agregar al carrito</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="row g-4 text-center py-4">
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <div class="card h-100 border-0 shadow-sm rounded-4 p-3 bg-light">
+                                <img  class="img-fluid" src="https://www.equiposindustriales.com/web/image/product.template/13776/image_1024?unique=ede6b52" alt="Cable de cobre THHN 12 AWG">
+                                <span class="fw-bold mb-1">Cable de cobre THHN 12 AWG</span>
+                                <span><span class="text-primary fs-6 py-2">Categoria:</span> Conductores</span>
+                                <span><span class="text-primary fs-6 py-2">Precio:</span> L. 1,850.00 por rollo de 100 metros</span>
+                                <span><span class="text-primary fs-6 py-2">Garantía:</span> 1 año</span>
+                                <span><span class="text-primary fs-6 py-2">Marca:</span> ElectroCable</span>
+                                <span><span class="text-primary fs-6 py-2">Detalles técnicos:</span> Tensión nominal de aislamiento de 600 V; sección nominal aproximada de 3.31 mm²; adecuado para instalaciones eléctricas que cumplan las condiciones de uso del conductor.</span>
+                                <button class="btn btn-sm rounded-pill px-3 btn-primary" type="button">Agregar al carrito</button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <div class="card h-100 border-0 shadow-sm rounded-4 p-3 bg-light">
+                                <img  class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPgexAYixyD5uMFO0YNVTh2RiKqQwyOjfa8Hkx2U2nHTR65ax5PI0MvszY&s=10" alt="Tablero de distribución trifásico de 42 espacios">
+                                <span class="fw-bold mb-1">Tablero de distribución trifásico de 42 espacios</span>
+                                <span><span class="text-primary fs-6 py-2">Categoria:</span> Distribución eléctrica</span>
+                                <span><span class="text-primary fs-6 py-2">Precio:</span> L. 24,500.00</span>
+                                <span><span class="text-primary fs-6 py-2">Garantía:</span> 2 años</span>
+                                <span><span class="text-primary fs-6 py-2">Marca:</span> PanelGuard</span>
+                                <span><span class="text-primary fs-6 py-2">Detalles técnicos:</span> Tensión nominal de 208Y/120 V AC; corriente nominal de 225 A; capacidad para instalar hasta 42 posiciones de interruptores, según la configuración del fabricante.</span>
+                                <button class="btn btn-sm rounded-pill px-3 btn-primary" type="button">Agregar al carrito</button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <div class="card h-100 border-0 shadow-sm rounded-4 p-3 bg-light">
+                                <img  class="img-fluid" src="https://static.weg.net/medias/images/h23/h77/EUACanada_W22_High_Efficienc_Premium_TOP_Premium_160_200_HIGH_EFFICIENCY_B3RD_1200Wx1200H.jpg" alt="Motor eléctrico trifásico de 20 HP">
+                                <span class="fw-bold mb-1">Motor eléctrico trifásico de 20 HP</span>
+                                <span><span class="text-primary fs-6 py-2">Categoria:</span> Fuerza motriz</span>
+                                <span><span class="text-primary fs-6 py-2">Precio:</span> L. 32,800.00</span>
+                                <span><span class="text-primary fs-6 py-2">Garantía:</span> 2 años</span>
+                                <span><span class="text-primary fs-6 py-2">Marca:</span> Motrix</span>
+                                <span><span class="text-primary fs-6 py-2">Detalles técnicos:</span> Tensión nominal de 460 V AC; potencia mecánica nominal de 20 HP, equivalentes aproximadamente a 14.9 kW; diseñado para accionar maquinaria industrial.</span>
+                                <button class="btn btn-sm rounded-pill px-3 btn-primary" type="button">Agregar al carrito</button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <div class="card h-100 border-0 shadow-sm rounded-4 p-3 bg-light">
+                                <img  class="img-fluid" src="https://www.eytsa.com/wp-content/uploads/VFD45AMS43AFSAA-DELTA.jpg" alt="Variador de frecuencia de 30 HP">
+                                <span class="fw-bold mb-1">Variador de frecuencia de 30 HP</span>
+                                <span><span class="text-primary fs-6 py-2">Categoria:</span> Automatización industrial</span>
+                                <span><span class="text-primary fs-6 py-2">Precio:</span> L. 39,600.00</span>
+                                <span><span class="text-primary fs-6 py-2">Garantía:</span> 2 años</span>
+                                <span><span class="text-primary fs-6 py-2">Marca:</span> DriveCore</span>
+                                <span><span class="text-primary fs-6 py-2">Detalles técnicos:</span> Tensión nominal de entrada de 460 V AC trifásica; potencia de motor compatible de hasta 30 HP, equivalentes aproximadamente a 22.4 kW, según las condiciones de carga y el dimensionamiento.</span>
+                                <button class="btn btn-sm rounded-pill px-3 btn-primary" type="button">Agregar al carrito</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row g-4 text-center py-4">
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <div class="card h-100 border-0 shadow-sm rounded-4 p-3 bg-light">
+                                <img  class="img-fluid" src="https://m.media-amazon.com/images/I/519c9gVo-4L.jpg" alt="Contactor industrial de 40 A">
+                                <span class="fw-bold mb-1">Contactor industrial de 40 A</span>
+                                <span><span class="text-primary fs-6 py-2">Categoria:</span> Automatización industrial</span>
+                                <span><span class="text-primary fs-6 py-2">Precio:</span> L. 2,150.00</span>
+                                <span><span class="text-primary fs-6 py-2">Garantía:</span> 1 año</span>
+                                <span><span class="text-primary fs-6 py-2">Marca:</span> Controlix</span>
+                                <span><span class="text-primary fs-6 py-2">Detalles técnicos:</span> Tensión de aislamiento de referencia de hasta 600 V AC; corriente nominal de 40 A, sujeta a la categoría de utilización; adecuado para maniobrar circuitos de motores y cargas industriales compatibles.</span>
+                                <button class="btn btn-sm rounded-pill px-3 btn-primary" type="button">Agregar al carrito</button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <div class="card h-100 border-0 shadow-sm rounded-4 p-3 bg-light">
+                                <img  class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6hBQgkeu9Oz365vhbQZq1UiXeJn_sOOaa8bEjYL6qtVA0yFUmLLw5fkM&s=10" alt="Interruptor seccionador de 200 A">
+                                <span class="fw-bold mb-1">Interruptor seccionador de 200 A</span>
+                                <span><span class="text-primary fs-6 py-2">Categoria:</span> Protección eléctrica</span>
+                                <span><span class="text-primary fs-6 py-2">Precio:</span> L. 8,750.00</span>
+                                <span><span class="text-primary fs-6 py-2">Garantía:</span> 2 años</span>
+                                <span><span class="text-primary fs-6 py-2">Marca:</span> ProtecVolt</span>
+                                <span><span class="text-primary fs-6 py-2">Detalles técnicos:</span> Tensión nominal de hasta 600 V AC; corriente nominal de 200 A; permite aislar eléctricamente circuitos para tareas de mantenimiento, según las características del equipo.</span>
+                                <button class="btn btn-sm rounded-pill px-3 btn-primary" type="button">Agregar al carrito</button>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-lg-3">
+                            <div class="card h-100 border-0 shadow-sm rounded-4 p-3 bg-light">
+                                <img  class="img-fluid" src="https://www.equiposindustriales.com/web/image/product.template/29601/image_1024?unique=03f1e0a" alt="Transformador de control de 5 kVA">
+                                <span class="fw-bold mb-1">Transformador de control de 5 kVA</span>
+                                <span><span class="text-primary fs-6 py-2">Categoria:</span> Transformadores</span>
+                                <span><span class="text-primary fs-6 py-2">Precio:</span> L. 12,400.00</span>
+                                <span><span class="text-primary fs-6 py-2">Garantía:</span> 2 años</span>
+                                <span><span class="text-primary fs-6 py-2">Marca:</span> TrafoPower</span>
+                                <span><span class="text-primary fs-6 py-2">Detalles técnicos:</span> Tensión primaria de 480 V AC y tensión secundaria de 120 V AC; capacidad de 5 kVA; destinado a alimentar circuitos de control y automatización.</span>
+                                <button class="btn btn-sm rounded-pill px-3 btn-primary" type="button">Agregar al carrito</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div>
-                    <div>
-                        <span>Inversor híbrido de 15 kW</span>
-                        <span>Categoria: Energía solar</span>
-                        <span>Precio: L. 98,200.00</span>
-                        <p>Detalles tecnicos: Tensión de salida de 120/240 V AC; capacidad nominal de 15 kW; compatible con sistemas de almacenamiento mediante baterías.</p>
-                        <p>Garantía: 5 años</p>
-                        <p>Marca: EnerVolt</p>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx0iUE2WlNzkK5vWdp7T5PffYTVSQYC23On42WJxniJA&s=10" alt="Inversor híbrido de 15 kW">
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <span>Arrancador suave de 75 HP</span>
-                        <span>Categoria: Fuerza motriz</span>
-                        <span>Precio: L. 46,900.00</span>
-                        <p>Detalles tecnicos: Tensión nominal de 460 V AC trifásica; capacidad de motor de 75 HP, equivalentes aproximadamente a 55.9 kW.</p>
-                        <p>Garantía: 2 años</p>
-                        <p>Marca: InduStart</p>
-                        <img src="https://bombeo.co/wp-content/uploads/2023/04/ARRANCADOR_SUAVE_1.jpg.webp" alt="Arrancador suave de 75 HP">
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <span>Transformador trifásico de 150 kVA</span>
-                        <span>Categoria: Media tensión</span>
-                        <span>Precio: L. 285,000.00</span>
-                        <p>Detalles tecnicos: Tensión primaria de 13,800 V y tensión secundaria de 480Y/277 V AC; capacidad de 150 kVA.</p>
-                        <p>Garantía: 3 años</p>
-                        <p>Marca: TrafoPower</p>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfqDOwK110fxbDd4GNR1hKSwNRisuJCd7Zwc8y2tY5eYovstA6yo0ztts&s=10" alt="Transformador trifásico de 150 kVA">
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <span>Banco automático de capacitores de 100 kVAr</span>
-                        <span>Categoria: Calidad de energía</span>
-                        <span>Precio: L. 68,500.00</span>
-                        <p>Detalles tecnicos: Tensión nominal de 480 V AC trifásica; capacidad de compensación de potencia reactiva de 100 kVAr.</p>
-                        <p>Garantía: 2 años</p>
-                        <p>Marca: ReactivePro</p>
-                        <img src="https://maikaingenieria.com/wp-content/uploads/2021/09/banc_cap-1.jpg" alt="Banco automático de capacitores de 100 kVAr">
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <span>Cable de cobre THHN 4/0 AWG</span>
-                        <span>Categoria: Conductores</span>
-                        <span>Precio: L. 485.00 por metro</span>
-                        <p>Detalles tecnicos: Tensión nominal de aislamiento de 600 V; conductor de cobre con sección nominal aproximada de 107.2 mm².</p>
-                        <p>Garantía: 1 año</p>
-                        <p>Marca: ElectroCable</p>
-                        <img src="https://ineldec.com/wp-content/uploads/2024/08/Cable-4-0-AWG-THHN-Precio-2.jpeg" alt="Cable de cobre THHN 4/0 AWG">
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <span>Centro de carga NEMA 3R de 225 A</span>
-                        <span>Categoria: Distribución eléctrica</span>
-                        <span>Precio: L. 18,900.00</span>
-                        <p>Detalles tecnicos: Tensión nominal de 120/240 V AC; corriente nominal de 225 A; gabinete diseñado para ofrecer protección contra la lluvia y otras condiciones exteriores contempladas por NEMA 3R.</p>
-                        <p>Garantía: 2 años</p>
-                        <p>Marca: PanelGuard</p>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYgm1DyyMM0kqbrR39dE9mBtE81Md6tLOXXTbi_y4cNozK0WhHwUdt28w&s=10" alt="Centro de carga NEMA 3R de 225 A">
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <span>Interruptor termomagnético de 100 A</span>
-                        <span>Categoria: Protección eléctrica</span>
-                        <span>Precio: L. 4,250.00</span>
-                        <p>Detalles tecnicos: Tensión nominal de 480 V AC; corriente nominal de 100 A; tres polos para protección de circuitos trifásicos. La capacidad interruptiva debe verificarse según el modelo.</p>
-                        <p>Garantía: 2 años</p>
-                        <p>Marca: ProtecVolt</p>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxmJWyx7OmmtJ4FQCVNbHaTQFTgCnXSP44hvhMXnpCow&s" alt="Interruptor termomagnético de 100 A">
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <span>Cable de cobre THHN 12 AWG</span>
-                        <span>Categoria: Conductores</span>
-                        <span>Precio: L. 1,850.00 por rollo de 100 metros</span>
-                        <p>Detalles tecnicos: Tensión nominal de aislamiento de 600 V; sección nominal aproximada de 3.31 mm²; adecuado para instalaciones eléctricas que cumplan las condiciones de uso del conductor.</p>
-                        <p>Garantía: 1 año</p>
-                        <p>Marca: ElectroCable</p>
-                        <img src="https://www.equiposindustriales.com/web/image/product.template/13776/image_1024?unique=ede6b52" alt="Cable de cobre THHN 12 AWG">
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <span>Tablero de distribución trifásico de 42 espacios</span>
-                        <span>Categoria: Distribución eléctrica</span>
-                        <span>Precio: L. 24,500.00</span>
-                        <p>Detalles tecnicos: Tensión nominal de 208Y/120 V AC; corriente nominal de 225 A; capacidad para instalar hasta 42 posiciones de interruptores, según la configuración del fabricante.</p>
-                        <p>Garantía: 2 años</p>
-                        <p>Marca: PanelGuard</p>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPgexAYixyD5uMFO0YNVTh2RiKqQwyOjfa8Hkx2U2nHTR65ax5PI0MvszY&s=10" alt="Tablero de distribución trifásico de 42 espacios">
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <span>Motor eléctrico trifásico de 20 HP</span>
-                        <span>Categoria: Fuerza motriz</span>
-                        <span>Precio: L. 32,800.00</span>
-                        <p>Detalles tecnicos: Tensión nominal de 460 V AC; potencia mecánica nominal de 20 HP, equivalentes aproximadamente a 14.9 kW; diseñado para accionar maquinaria industrial.</p>
-                        <p>Garantía: 2 años</p>
-                        <p>Marca: Motrix</p>
-                        <img src="https://static.weg.net/medias/images/h23/h77/EUACanada_W22_High_Efficienc_Premium_TOP_Premium_160_200_HIGH_EFFICIENCY_B3RD_1200Wx1200H.jpg" alt="Motor eléctrico trifásico de 20 HP">
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <span>Variador de frecuencia de 30 HP</span>
-                        <span>Categoria: Automatización industrial</span>
-                        <span>Precio: L. 39,600.00</span>
-                        <p>Detalles tecnicos: Tensión nominal de entrada de 460 V AC trifásica; potencia de motor compatible de hasta 30 HP, equivalentes aproximadamente a 22.4 kW, según las condiciones de carga y el dimensionamiento.</p>
-                        <p>Garantía: 2 años</p>
-                        <p>Marca: DriveCore</p>
-                        <img src="https://www.eytsa.com/wp-content/uploads/VFD45AMS43AFSAA-DELTA.jpg" alt="Variador de frecuencia de 30 HP">
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <span>Contactor industrial de 40 A</span>
-                        <span>Categoria: Automatización industrial</span>
-                        <span>Precio: L. 2,150.00</span>
-                        <p>Detalles tecnicos: Tensión de aislamiento de referencia de hasta 600 V AC; corriente nominal de 40 A, sujeta a la categoría de utilización; adecuado para maniobrar circuitos de motores y cargas industriales compatibles.</p>
-                        <p>Garantía: 1 año</p>
-                        <p>Marca: Controlix</p>
-                        <img src="https://m.media-amazon.com/images/I/519c9gVo-4L.jpg" alt="Contactor industrial de 40 A">
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <span>Interruptor seccionador de 200 A</span>
-                        <span>Categoria: Protección eléctrica</span>
-                        <span>Precio: L. 8,750.00</span>
-                        <p>Detalles tecnicos: Tensión nominal de hasta 600 V AC; corriente nominal de 200 A; permite aislar eléctricamente circuitos para tareas de mantenimiento, según las características del equipo.</p>
-                        <p>Garantía: 2 años</p>
-                        <p>Marca: ProtecVolt</p>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6hBQgkeu9Oz365vhbQZq1UiXeJn_sOOaa8bEjYL6qtVA0yFUmLLw5fkM&s=10" alt="Interruptor seccionador de 200 A">
-                    </div>
-                </div>
-                <div>
-                    <div>
-                        <span>Transformador de control de 5 kVA</span>
-                        <span>Categoria: Categoría: Transformadores</span>
-                        <span>Precio: Precio: L. 12,400.00</span>
-                        <p>Detalles tecnicos: Tensión primaria de 480 V AC y tensión secundaria de 120 V AC; capacidad de 5 kVA; destinado a alimentar circuitos de control y automatización.</p>
-                        <p>Garantía: 2 años</p>
-                        <p>Marca: TrafoPower</p>
-                        <img src="https://www.equiposindustriales.com/web/image/product.template/29601/image_1024?unique=03f1e0a" alt="Transformador de control de 5 kVA">
-                    </div>
-                </div>
-                
-                
             </section>
 
             <section id="ofertas" style="scroll-margin-top: 100px;">
