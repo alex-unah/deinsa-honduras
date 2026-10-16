@@ -4,31 +4,30 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Deinsa Honduras</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     </head>
     <body>
-        <nav>
+        <nav class="navbar navbar-expand-lg sticky-top shadow-sm py-3 bg-primary text-light" data-bs-theme="dark">
             
             <div class="container">
                 <!--Logo con enlace-->
-                <a href="#inicio">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTuH6gyjns9ylSHGthwN2h9HWAmYrLrVaAtzkSHdvafui7-KjfXwEudiuU&s=10" alt="Deinsa Honduras">
+                <a href="#inicio" class="navbar-brand d-flex align-items-center fw-bold fs-4">
+                    <img class="navbar-brand d-flex align-items-center fw-bold fs-4 img-fluid" style="max-height: 60px; width: auto;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTuH6gyjns9ylSHGthwN2h9HWAmYrLrVaAtzkSHdvafui7-KjfXwEudiuU&s=10" alt="Deinsa Honduras">
                 </a>
-                <a href="#catalogo">
 
-                </a>
                 <!--Boton hamburguesa-->
                 <button class="navbar-toggler border-0"  type="button" data-bs-toggle="collapse" data-bs-target="#menuNavegacion" aria-controls="menuNavegacion" aria-expanded="false" aria-label="Abrir navegación">
                 <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <!--Menu con enlaces-->
-                <div>
-                    <ul>
-                        <li><a href="#inicio">Inicio</a></li>
-                        <li><a href="#catalogo">Catálogo</a></li>
-                        <li><a href="#ofertas">Ofertas</a></li>
-                        <li><a href="#cotizaciones">Cotizaciones</a></li>
-                        <li><a href="#contacto">Contacto</a></li>
+                <div id="menuNavegacion" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ms-auto align-items-lg-center">
+                        <li class="nav-item"><a class="nav-link px-3"" href="#inicio">Inicio</a></li>
+                        <li><a class="nav-link px-3"" href="#catalogo">Catálogo</a></li>
+                        <li><a class="nav-link px-3"" href="#ofertas">Ofertas</a></li>
+                        <li><a class="nav-link px-3"" href="#contacto">Contacto</a></li>
+                        <li><a class="nav-link px-3 btn rounded-pill bg-dark"" href="#cotizaciones">Cotizaciones</a></li>
                     </ul>
                 </div>
             </div>
@@ -43,7 +42,7 @@
         </header>
         
         <main>
-            <section id="inicio">
+            <section id="inicio" class="pt-5" style="scroll-margin-top: 100px;">
                 <div>
                     <h2>Quienes somos</h2>
                     <p>Somos una reconocida distribuidora de suministros electicos industriales y sistemas de energia solar en San Pedro
@@ -52,7 +51,7 @@
                 </div>
             </section>
 
-            <section id="catalogo">
+            <section id="catalogo" style="scroll-margin-top: 100px;">
                 <h3>Catálogo de Productos</h3>
                 <!--15 productos-->
                 <div>
@@ -224,53 +223,72 @@
                 
             </section>
 
-            <section id="ofertas">
+            <section id="ofertas" style="scroll-margin-top: 100px;">
                 <!--Productos en oferta-->
                 <h3>Ofertas Y Descuentos</h3>
                 <div>
                     <div>
                         <span>Bomba centrífuga industrial de 10 HP</span>
                         <span>Categoria: Bombeo industrial</span>
-                        <span class="bagde">Oferta: 19,250</span>
+                        <span class="bagde">Oferta: L. 19,250</span>
                         <span>Precio: L. 27,500.00</span>
                         <p>Detalles tecnicos: Alimentación eléctrica de 230/460 V AC trifásica; motor de 10 HP, equivalentes aproximadamente a 7.46 kW; destinada al movimiento de agua y líquidos compatibles con sus materiales.</p>
                         <p>Garantía: 2 años</p>
                         <p>Marca: AquaDrive</p>
-                        <img src="" alt="">
+                        <img src="https://evans.com.mx/media/catalog/product/cache/2210af2af20a4d3cb052fe59323561a1/B/o/Bombas_de_superficie_EVANS_MT4AME1000_1L.jpg" alt="Bomba centrífuga industrial de 10 HP">
                     </div>
                 </div>
                 <div>
                     <div>
-                        <span>Nombre</span>
-                        <span>Categoria</span>
-                        <span class="bagde">Precio</span>
+                        <span>Cable fotovoltaico de 6 mm²</span>
+                        <span>Categoria: Energía solar</span>
+                        <span class="bagde">Oferta: L. 37.00 por metro.</span>
+                        <span>Precio: L. 42.00 por metro</span>
                         <p>Detalles tecnicos</p>
-                        <img src="" alt="">
+                        <img src="https://ecosolares.pe/wp-content/uploads/2022/08/cable-solar-6mm-10m-3.webp" alt="Cable fotovoltaico de 6 mm²">
                     </div>
                 </div>
                 <div>
                     <div>
-                        <span>Nombre</span>
-                        <span>Categoria</span>
-                        <span class="bagde">Precio</span>
-                        <p>Detalles tecnicos</p>
-                        <img src="" alt="">
+                        <span>Supresor de sobretensiones tipo 2</span>
+                        <span>Categoria: Protección eléctrica</span>
+                        <span class="bagde">Oferta: L. 3,272.00.</span>
+                        <span>Precio: L. 3,850.00.</span>
+                        <p>Detalles tecnicos: Diseñado para sistemas de 120/240 V AC; protege equipos frente a sobretensiones transitorias. La corriente nominal de descarga y la tensión máxima de operación deben confirmarse en la ficha del modelo.</p>
+                        <p>Garantía: 2 años</p>
+                        <p>Marca: SafeGrid</p>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlEy1aFM5usIArunQXkeLBmUFB_AvbLLJqLs1yuh8qdw&s=10" alt="Supresor de sobretensiones tipo 2">
                     </div>
                 </div>
                 <div>
                     <div>
-                        <span>Nombre</span>
-                        <span>Categoria</span>
-                        <span class="bagde">Precio</span>
-                        <p>Detalles tecnicos</p>
-                        <img src="" alt="">
+                        <span>Banco de baterías de litio de 10 kWh</span>
+                        <span>Categoria: lmacenamiento de energía</span>
+                        <span class="bagde">Oferta: L. 57,600.00.</span>
+                        <span>Precio: L. 72,000.00.</span>
+                        <p>Detalles tecnicos: Tensión nominal de 51.2 V DC; capacidad energética de 10 kWh; destinado al almacenamiento de energía para sistemas solares compatibles.</p>
+                        <p>Garantía: 5 años</p>
+                        <p>Marca: EnerVolt</p>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7Vc4Vit-vkNeGZrk7GBP5PUTVRQXR8cNDn5Ql-hVThX1XWhRNhiiq7tc&s=10" alt="Banco de baterías de litio de 10 kWh">
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <span>Transformador de corriente de 400/5 A</span>
+                        <span>Categoria: Medición eléctrica</span>
+                        <span class="bagde">Oferta: L. 2,065.00</span>
+                        <span>Precio: L. 2,950.00</span>
+                        <p>Detalles tecnicos: Aislamiento nominal de referencia de hasta 600 V AC; relación de transformación de corriente de 400 A a 5 A; destinado a alimentar instrumentos de medición y sistemas de protección compatibles.</p>
+                        <p>Garantía: 1 año</p>
+                        <p>Marca: MeasurePro</p>
+                        <img src="https://ndu.cl/2263-large_default/transformador-de-corriente-400-5a-ventana-40x10-30x30mm.jpg" alt="Transformador de corriente de 400/5 A">
                     </div>
                 </div>
 
 
             </section>
 
-            <section id="cotizaciones">
+            <section id="cotizaciones" style="scroll-margin-top: 100px;">
                 <div>
                     <h3>Calculadora de Cotizaciones</h3>
                     <form action="">
@@ -303,7 +321,7 @@
 
             </section>
 
-            <section id="tabla-com">
+            <section id="tabla-com" style="scroll-margin-top: 100px;">
                 <h3>Tabla Comparativa De Especificaciones Tecnicas</h3>
                 <table>
                     <thead>
@@ -361,7 +379,7 @@
                 </table>
             </section>
 
-            <section id="contacto">
+            <section id="contacto" style="scroll-margin-top: 100px;">
                 <div>
                     <h3>Formulario Para Requisitos y Licitación B2B</h3>
                     <form action="">
@@ -429,5 +447,6 @@
                     <p>&copy; 2026 | Todos los derechos reservados.</p>
                 </div>
         </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </body>
 <html>
