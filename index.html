@@ -336,34 +336,51 @@
             </section>
 
             <section id="cotizaciones" class="py-4 border-bottom bg-dark text-light" style="scroll-margin-top: 100px;">
-                <div>
-                    <h3 class="badge rounded-pill px-3 py-2 text-uppercase fw-bold bg-info fs-3">Calculadora de Cotizaciones</h3>
-                    <form action="">
-                        <fieldset>
-                            <legend>Cotización</legend>
-                            <label>Ingrese la cantidad de unidades</label>
-                            <input type="number" name="cant" id="cant" min="2">
-                            <label>Seleccione el equipo industrial</label>
-                            <select name="equipo" id="equipo">
-                                <option value="panel-solar">Panel Solar TOPCon 580 W - L.3,650</option>
-                                <option value="inversor-hibrido">Inversor Hibrido 15 kw - L.98,200</option>
-                                <option value="arrancador">Arrancador Suave 75 HP - L.46,900</option>
-                                <option value="transformador">Transfromador 150 kVA - L.285,000</option>
-                            </select>
-                            <label>Selecciona la ciudad de entrega y flete</label>
-                            <select name="ciudad" id="ciudad">
-                                <option value="sps">San Pedro Sula - Flete: L.500</option>
-                                <option value="tegucigalpa">Tegucigalpa - Flete: L.1,200</option>
-                                <option value="otras">Otras regiones - Flete: L.2,000</option>
-                            </select>
-                        </fieldset>
-                        <span>Descuento comercial del 8% automático en órdenes de 5 o más unidades.</span>
-                        <button type="submit">Calcular Presupuesto</button>
-                    </form>
-                    
-                    <div>
-                        <span>Resultado</span>
+                <div class="container">
+                    <div class="row g-4 text-center py-4">
+                        <h3 class="badge rounded-pill px-3 py-2 text-uppercase fw-bold bg-info fs-3">Calculadora de Cotizaciones</h3>
+                        <form action="">
+                            <fieldset>
+                                <legend class="text-primary">Cotización</legend>
+                                <div class="form-floating mt-4">
+                                    <div>
+                                        <label for="cant">Ingrese la cantidad de unidades</label>
+                                        <input class="form-control" type="number" name="cant" id="cant" min="2" placeholder="Ingrese la cantidad.">    
+                                    </div>
+                                </div>
+                                <div class="form-floating mt-4">
+                                    <div>
+                                        <label for="equipo">Seleccione el equipo industrial</label>
+                                        <select class="form-select" name="equipo" id="equipo">
+                                            <option value="panel-solar">Panel Solar TOPCon 580 W - L.3,650</option>
+                                            <option value="inversor-hibrido">Inversor Hibrido 15 kw - L.98,200</option>
+                                            <option value="arrancador">Arrancador Suave 75 HP - L.46,900</option>
+                                            <option value="transformador">Transfromador 150 kVA - L.285,000</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-floating mt-4">
+                                    <div>
+                                        <label for="ciudad">Selecciona la ciudad de entrega y flete</label>
+                                        <select class="form-select" name="ciudad" id="ciudad">
+                                            <option value="sps">San Pedro Sula - Flete: L.500</option>
+                                            <option value="tegucigalpa">Tegucigalpa - Flete: L.1,200</option>
+                                            <option value="otras">Otras regiones - Flete: L.2,000</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <span class="card h-100 border-0 shadow-sm rounded-4 p-3 bg-light text-primary mt-4">Descuento comercial del 8% automático en órdenes de 5 o más unidades.</span>    
+                                
+                            </fieldset>
+                            <button type="submit" class="btn btn-lg rounded-pill fw-bold w-100 shadow btn-success mt-4">Calcular Presupuesto</button>
+                        </form>
+                        
+                        <div>
+                            <span class="card h-100 border-0 shadow-sm rounded-4 p-3 bg-light text-primary mt-4">Resultado</span>
+                        </div>
                     </div>
+                    
+                    
                 </div>
 
             </section>
